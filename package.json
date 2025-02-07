@@ -1,0 +1,36 @@
+{
+  "name": "paracelis-tourist-spots-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.5",
+    "@types/nanoid-dictionary": "^4.2.3",
+    "axios": "^1.7.9",
+    "motion": "^12.0.6",
+    "mysql2": "^3.12.0",
+    "nanoid": "^5.0.9",
+    "nanoid-dictionary": "^4.3.0",
+    "next": "15.1.2",
+    "next-auth": "^4.24.11",
+    "next-gallery": "^2.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-social-media-embed": "^2.5.17",
+    "styled-components": "^6.1.14"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.2",
+    "typescript": "^5"
+  }
+}
