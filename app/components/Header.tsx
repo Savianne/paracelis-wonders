@@ -22,14 +22,14 @@ const HeadersFC:React.FC<IStyledFC> = ({className}) => {
                         onClick={(e) => {
                             router.push('/about')
                         }}>ABOUT</span>
-                        <span className={`link ${path == '/accommodations'? "active-link" : ''}`}
-                        onClick={(e) => {
-                            router.push('/accommodations')
-                        }}>ACCOMMODATIONS</span>
                         <span className={`link ${path == '/destinations'? "active-link" : ''}`}
                         onClick={(e) => {
                             router.push('/destinations')
                         }}>DESTINATIONS</span>
+                        <span className={`link ${path == '/accommodations'? "active-link" : ''}`}
+                        onClick={(e) => {
+                            router.push('/accommodations')
+                        }}>ACCOMMODATIONS</span>
                     </nav>
                 </div>
                 <div className="bottom">
@@ -42,14 +42,14 @@ const HeadersFC:React.FC<IStyledFC> = ({className}) => {
                         onClick={(e) => {
                             router.push('/about')
                         }}>ABOUT</span>
-                        <span className={`link ${path == '/accommodations'? "active-link" : ''}`}
-                        onClick={(e) => {
-                            router.push('/accommodations')
-                        }}>ACCOMMODATIONS</span>
                         <span className={`link ${path == '/destinations'? "active-link" : ''}`}
                         onClick={(e) => {
                             router.push('/destinations')
                         }}>DESTINATIONS</span>
+                        <span className={`link ${path == '/accommodations'? "active-link" : ''}`}
+                        onClick={(e) => {
+                            router.push('/accommodations')
+                        }}>ACCOMMODATIONS</span>
                     </nav>
                 </div>
             </CenteredContent>
