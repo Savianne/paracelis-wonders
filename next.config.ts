@@ -16,6 +16,9 @@ const nextConfig: NextConfig = {
   },
   images: {
     domains: ['localhost'],
+    minimumCacheTTL: 60,
+    dangerouslyAllowSVG: true,  // ⚠️ Allow SVG if needed
+    unoptimized: true, 
     remotePatterns: [
       {
         protocol: 'http',
