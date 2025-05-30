@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 
 // Your external image server
-const IMAGE_SERVER = "http://88.222.244.153:3001"; // Change to your actual IP
+const IMAGE_SERVER = "http://localhost:3001"; // Change to your actual IP
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   const imagePath = req.query.path as string; // Get the image path from the query
